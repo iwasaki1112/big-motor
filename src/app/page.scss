@@ -1,0 +1,17 @@
+.index {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  &--title {
+    font-size: 40px;
+  }
+
+  &--button {
+    margin: 24px 0 0 0;
+    width: 90vw;
+    height: 40px;
+    font-size: 20px;
+  }
+}

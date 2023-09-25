@@ -1,0 +1,33 @@
+.score {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+
+  &--crown {}
+
+  &--description {
+    margin: 24px 0 24px 0;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  &--point {
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    display: block;
+    background: #000;
+    margin: 12px 0;
+  }
+
+  &--button {
+    font-size: 20px;
+    border: 1px solid #f1f1f1;
+    padding: 12px 24px;
+    font-weight: bold;
+  }
+
+
+}
